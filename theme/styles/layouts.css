@@ -7,10 +7,6 @@
     color: var(--slidev-theme-primary);
   }
 
-  h1 + p {
-    @apply -mt-2 opacity-50 mb-4;
-  }
-
   p + h2, ul + h2, table + h2 {
     @apply mt-10;
   }
@@ -43,8 +39,8 @@
     @apply opacity-40;
   }
 
-  --slidev-code-font-size: 18px;
-  --slidev-code-line-height: 27px;
+  --slidev-code-font-size: 14px;
+  --slidev-code-line-height: 21px;
 }
 
 .slidev-layout.cover,
@@ -86,5 +82,22 @@
 .slidev-layout.section {
   h1 {
     @apply text-6xl font-500 leading-20;
+  }
+}
+
+footer {
+  margin-top: 3em;
+  font-size: 90%;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+
+.flex-cols {
+  display: flex;
+  gap: 1em;
+
+   > * {
+    flex-grow: 1;
   }
 }
