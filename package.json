@@ -1,8 +1,8 @@
 {
-  "name": "async-js-without-cringe",
+  "name": "proxies-es-pour-le-fun",
   "private": true,
   "scripts": {
-    "build": "slidev build --base=/async-js-without-cringe",
+    "build": "slidev build --base=/proxies-es-pour-le-fun",
     "dev": "slidev --open",
     "export": "slidev export"
   },
